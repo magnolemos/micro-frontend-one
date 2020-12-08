@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "mf-one"
+  "defaultProject": "mf-one",
+  "cli": {
+    "analytics": "3015aadc-69df-449c-9eeb-5c9b2a1ab889"
+  }
 }

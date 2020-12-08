@@ -1,0 +1,5 @@
+/**
+ * Entry point for the remote module
+ */
+export * from './entry/entry.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL21mLW9uZS8iLCJzb3VyY2VzIjpbInB1YmxpY19hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFDSCxjQUFjLHNCQUFzQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBFbnRyeSBwb2ludCBmb3IgdGhlIHJlbW90ZSBtb2R1bGVcbiAqL1xuZXhwb3J0ICogZnJvbSAnLi9lbnRyeS9lbnRyeS5tb2R1bGUnO1xuIl19

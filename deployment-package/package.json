@@ -1,16 +1,6 @@
 {
   "name": "mf-one",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "package": "ng-packagr -p ng-package.json && cpx \"./deployment-package/bundles/*\" ./deployment && cpx \"./src/assets/*\" ./deployment/assets",
-    "server": "http-server deployment -p 3333 --cors -c-1"
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.1",
@@ -46,5 +36,14 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
-  }
+  },
+  "main": "bundles/bundle.umd.js",
+  "module": "fesm5/bundle.js",
+  "es2015": "fesm2015/bundle.js",
+  "esm5": "esm5/bundle.js",
+  "esm2015": "esm2015/bundle.js",
+  "fesm5": "fesm5/bundle.js",
+  "fesm2015": "fesm2015/bundle.js",
+  "typings": "bundle.d.ts",
+  "sideEffects": false
 }
