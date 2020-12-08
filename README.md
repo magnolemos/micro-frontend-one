@@ -1,5 +1,17 @@
 # MfOne
 
+Exemplo de um Micro Frontend independente. Um aplicativo principal (root para todo o sistema) pode ser encontrado aqui: https://github.com/magnolemos/micro-frontend-root
+
+Implementação baseada em exportar uma aplicação como modulo usando ng-packagr.
+
+
+
+# Uso
+npm run package para gerar o pacote
+npm run server
+abra o navegador em 'localhost: 3333'
+pacote pode ser baixado de 'localhost:3333/bundle.umd.js'
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
 ## Development server
